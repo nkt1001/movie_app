@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relLayout_rate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/content_padding"
+    android:paddingBottom="@dimen/content_padding"
+    android:gravity="right">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_star_32dp"
+        android:layout_marginLeft="@dimen/content_padding"
+        android:layout_marginStart="@dimen/content_padding"
+        android:id="@+id/imageView_star"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/tv_rating"
+        android:layout_toEndOf="@+id/tv_rating"/>
+
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:layout_centerVertical="true"
+        android:text="@string/vote_average"
+        android:id="@+id/overview_rating_tv"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="8.9/10"
+        android:layout_marginLeft="@dimen/content_padding"
+        android:layout_marginStart="@dimen/content_padding"
+        android:id="@+id/tv_rating"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/overview_rating_tv"
+        android:layout_toEndOf="@+id/overview_rating_tv" />
+</RelativeLayout>

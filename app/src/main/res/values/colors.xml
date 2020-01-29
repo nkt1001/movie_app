@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004D40</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tv_title_color">#FAFAFA</color>
+    <color name="splash_bkg_start_color">#00796B</color>
+    <color name="splash_bkg_end_color">#B2DFDB</color>
+</resources>
